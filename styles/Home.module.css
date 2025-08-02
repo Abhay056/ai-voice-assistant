@@ -1,0 +1,62 @@
+
+.recordButton.recording {
+  background-color: #ff4136;
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 4px 14px 0 rgba(255, 65, 54, 0.39);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 1.5rem;
+  flex: 1;
+  min-width: 300px;
+  max-width: 45%;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  color: #0070f3;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  min-height: 60px;
+}
+
+.latencyContainer {
+  margin-top: 3rem;
+  text-align: center;
+  font-family: monospace;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.latencyContainer p {
+    margin: 0.25rem 0;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Voice AI",
+  "short_name": "VoiceAI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDbUe14-CWiX9ZhCux_fnU_2YSrR9OuSoLhQ&s",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
