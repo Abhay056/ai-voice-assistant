@@ -16,7 +16,8 @@ An offline-capable voice AI assistant in Next.js that streams mic input, transcr
 
 ## Installation :
 ```
-npm install next-pwa workbox-webpack-plugin @google/generative-ai @xenova/transformers
+npm install --save-dev workbox-webpack-plugin webpack
+npm install  @google/generative-ai @xenova/transformers
 ```
 ```
 npm run dev
